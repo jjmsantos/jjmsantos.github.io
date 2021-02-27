@@ -1,0 +1,73 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace
+}
+:root{
+    --color-one: #01F8F9;
+    --color-two: #0A4C96;
+    --color-three: #000000;
+}
+
+/* Nav Bar Styling */
+header{
+    padding: 20px 35px;
+    background-color: var(--color-three);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-shadow: 0 0 10px rgba(255,255,255, 1);
+}
+
+header a{
+    text-decoration: none;
+    color: var(--color-one);
+
+}
+
+header nav{
+    margin: 7px 0;
+}
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a{
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+/* End Of Nav Styling */
+
+/* About Me Styling */
+
+#about-pic{
+    height: 300px;
+    width: 400x;
+    border-radius: 60%;
+    position: relative;
+    left: 250px
+}
+
+.who-am-i h2{
+    font-size: 50px;
+    width: 20%;
+}
+
+.who-am-i p{
+    font-size: 18px;
+    line-height: 1.55em;
+    
+}
+
+/* End of About Me Styling */
+
