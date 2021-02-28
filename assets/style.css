@@ -5,6 +5,7 @@
 }
 
 body{
+    background-color: #a2aeaa;
     font-family: 'Courier New', Courier, monospace
 }
 :root{
@@ -71,3 +72,73 @@ header nav ul li a{
 
 /* End of About Me Styling */
 
+/* Projects Styling */
+.what-i-did h2{
+    font-size: 50px;
+    width: 20%;
+}
+
+.imgholder{
+    text-align: center;
+}
+
+.what-i-did a{
+    text-decoration: none;
+}
+
+.what-i-did img{
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    border: 3px solid var(--color-two);
+}
+
+#first-project{
+    height:250px;
+    width:300px;
+}
+
+.what-i-did img:hover, #first-project:hover{
+    height: 300px;
+    width:350px;
+    background-color: rgba(1, 248, 249,0.5);
+    transition: .3s;
+}
+/* End of Project Styling */
+
+/* Resume Styling */
+.i-have-done h2{
+    font-size:50px;
+    width: 0%;
+}
+
+.i-have-done{
+    text-align: center;
+    line-height: 1.55em;
+}
+
+.i-have-done a{
+    text-decoration: none;
+    font-weight: 800;
+}
+/* End of Resume Styling */
+
+/* Footer/contact styling */
+footer{
+    text-align:center;
+    padding: 20px;
+}
+footer h2{
+    font-size: 50px;
+}
+footer img{
+    height: 100px;
+    width:100px
+}
+
+footer a{
+    text-decoration: none;
+    padding: 20px
+}
+
+/* End of Footer/contact styling */
