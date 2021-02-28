@@ -86,6 +86,7 @@ header nav ul li a{
     text-decoration: none;
 }
 
+
 .what-i-did img{
     height: 200px;
     width: 300px;
@@ -112,8 +113,7 @@ header nav ul li a{
     width: 0%;
 }
 
-.i-have-done{
-    text-align: center;
+.i-have-done p{
     line-height: 1.55em;
 }
 
@@ -121,6 +121,8 @@ header nav ul li a{
     text-decoration: none;
     font-weight: 800;
 }
+
+
 /* End of Resume Styling */
 
 /* Footer/contact styling */
