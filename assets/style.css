@@ -15,6 +15,15 @@ body{
 
 /* Universal header styling */
 
+.section-header{
+    font-size: 50px;
+    width: 50%;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+/* End of Universal header styles */
+
 /* Nav Bar Styling */
 header{
     padding: 20px 35px;
@@ -61,13 +70,6 @@ header nav ul li a{
 /* End Of Nav Styling */
 
 /* About Me Styling */
-
-#about-me h2{
-    font-size: 50px;
-    width: 50%;
-    padding: 20px;
-}
-
 .who-am-i img{
     height: 250px;
     width: 225px;
@@ -89,13 +91,6 @@ header nav ul li a{
 /* End of About Me Styling */
 
 /* Projects Styling */
-
-.what-i-did h2{
-    font-size: 50px;
-    width: 20%;
-    padding: 20px;
-}
-
 .imgholder{
     text-align: center;
 }
