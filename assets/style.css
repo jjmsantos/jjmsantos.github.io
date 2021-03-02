@@ -24,6 +24,16 @@ header{
     text-shadow: 0 0 10px rgba(255,255,255, 1);
 }
 
+.who-am-i p span{
+    font-weight: 900;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+header h1{
+    font-size: 50px;
+}
+
 header a{
     text-decoration: none;
     color: var(--color-one);
@@ -51,31 +61,38 @@ header nav ul li a{
 
 /* About Me Styling */
 
-#about-pic{
-    height: 300px;
-    width: 400x;
-    border-radius: 60%;
-    position: relative;
-    left: 250px
+#about-me h2{
+    font-size: 50px;
+    width: 50%;
+    padding: 20px;
 }
 
-.who-am-i h2{
-    font-size: 50px;
-    width: 20%;
+.who-am-i img{
+    height: 250px;
+    width: 225px;
+    border-radius: 200px;
+    padding: 20px;
+}
+
+.who-am-i{
+    display:flex;
+    width: 100%;
+    align-items: center;
+
 }
 
 .who-am-i p{
-    font-size: 18px;
-    line-height: 1.55em;
-    
+    text-align: center;
 }
 
 /* End of About Me Styling */
 
 /* Projects Styling */
+
 .what-i-did h2{
     font-size: 50px;
     width: 20%;
+    padding: 20px;
 }
 
 .imgholder{
@@ -108,9 +125,15 @@ header nav ul li a{
 /* End of Project Styling */
 
 /* Resume Styling */
+
+.i-have-done{
+    text-align: center;
+}
 .i-have-done h2{
     font-size:50px;
     width: 0%;
+    padding: 20px;
+    text-align: center;
 }
 
 .i-have-done p{
@@ -120,6 +143,7 @@ header nav ul li a{
 .i-have-done a{
     text-decoration: none;
     font-weight: 800;
+
 }
 
 
@@ -134,8 +158,8 @@ footer h2{
     font-size: 50px;
 }
 footer img{
-    height: 100px;
-    width:100px
+    height: 50px;
+    width:50px
 }
 
 footer a{
