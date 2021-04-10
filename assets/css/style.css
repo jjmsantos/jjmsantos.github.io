@@ -1,0 +1,210 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: lightgray;
+}
+
+:root{
+    --color-one: #01F8F9;
+    --color-three: #000000;
+}
+
+/* General Styling */
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+/* Nav Bar Styling */
+header{
+    padding: 20px 35px;
+    background-color: var(--color-three);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-shadow: 0 0 10px rgba(255,255,255, 1);
+}
+
+header a{
+    color: var(--color-one);
+    text-decoration: none;
+    
+}
+
+header h1{
+    font-size: 50px;
+}
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+header nav ul li a{
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 35px;
+    text-decoration: none;
+}
+/* End of Nav Bar Styling */
+
+#portrait {
+    width: 100%;
+    border-radius: 200px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hello World Animation */
+.glitch {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+
+    text-shadow: 
+    0.05em 0 0 rgba(255, 0, 0, 0.75),
+    -0.025em -.05em 0 rgba(0, 255, 0, 0.75),
+    0.025em 0.05em 0 rgba(0, 0, 255, 0.75); /* text shadow to change when font size changes */
+    animation: glitch 600ms 4;
+}
+
+.glitch span {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.glitch span:first-child {
+    animation: glitch 500ms 4;
+    clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+    transform: translate(-.025em, -0.0125em);
+    opacity: 0.8;
+}
+.glitch span:last-child {
+    animation: glitch 375ms 4;
+    clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
+    transform: translate(.0125em, 0.025em);
+    opacity: 0.8;
+}
+
+
+@keyframes glitch {
+    0% {
+        text-shadow: 
+        0.05em 0 0 rgba(255, 0, 0, 0.75),
+        -0.025em -.05em 0 rgba(0, 255, 0, 0.75),
+        0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    14% {
+        text-shadow: 
+        0.05em 0 0 rgba(255, 0, 0, 0.75),
+        -0.025em -.05em 0 rgba(0, 255, 0, 0.75),
+        0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    15% {
+        text-shadow: 
+        -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+        0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+        -0.005em -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    49% {
+        text-shadow: 
+        -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+        0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+        -0.005em -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    50% {
+        text-shadow: 
+        0.025em 0.025em 0 rgba(255, 0, 0, 0.75),
+        0.05em -.05em 0 rgba(0, 255, 0, 0.75),
+        0 -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    99% {
+        text-shadow: 
+        0.025em 0.025em 0 rgba(255, 0, 0, 0.75),
+        0.05em -.05em 0 rgba(0, 255, 0, 0.75),
+        0 -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    100% {
+        text-shadow: 
+        -0.025em 0 0 rgba(255, 0, 0, 0.75),
+        -0.025em -0.025em 0 rgba(0, 255, 0, 0.75),
+        -0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+}
+/* End of Hello World Animation */
+
+.what-i-did img{
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    border: 3px solid var(--color-two);
+}
+
+.some-info {
+    text-align: center;
+}
+
+.where-i-work {
+    text-align: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding: 20px;
+
+}
+
+footer img{
+    height: 100px;
+    width:100px
+}
+
+footer a{
+    text-decoration: none;
+    padding: 20px
+}
+
+@media screen and (max-width:980px){
+    header{
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+      }
+
+      header h1{
+          text-align: center;
+      }
+
+      header nav ul{
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+      }
+    
+      header nav ul li a{
+        font-size: 30px;
+        padding-bottom: 10px;
+      }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    ::before,
+    ::after {
+        animation-delay: -1ms !important;
+        animation-duration: -1ms !important;
+        animation-iteration-count: 1 !important;
+        background-attachment: initial !important;
+        scroll-behavior: auto !important;
+        transition-duration: 0s !important;
+        transition-delay: 0s !important;
+    }
+}
