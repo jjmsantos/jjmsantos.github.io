@@ -1,3 +1,4 @@
+/* General Styling */
 body {
     font-family: 'Roboto Condensed', sans-serif;
     background-color: lightgray;
@@ -8,12 +9,11 @@ body {
     --color-three: #000000;
 }
 
-/* General Styling */
-
 h2 {
     font-size: 3rem;
     margin-bottom: 10px;
 }
+/* End of General Styling */
 /* Nav Bar Styling */
 header{
     padding: 20px 35px;
@@ -51,6 +51,7 @@ header nav ul li a{
 }
 /* End of Nav Bar Styling */
 
+/* Portrait img style */
 #portrait {
     width: 100%;
     border-radius: 200px;
@@ -59,6 +60,7 @@ header nav ul li a{
     justify-content: center;
     align-items: center;
 }
+/* end of Portrait img style */
 
 /* Hello World Animation */
 .glitch {
@@ -139,20 +141,24 @@ header nav ul li a{
 }
 /* End of Hello World Animation */
 
+/* Projects styling */
 .what-i-did img{
     height: 200px;
     width: 300px;
     display: inline-block;
     border: 3px solid var(--color-two);
 }
-
+/* end of Projects styling */
+/* description of person */
 .some-info {
     text-align: center;
 }
-
+/* end of description of person */
 .where-i-work {
     text-align: center;
 }
+/* end of resume */
+
 footer {
     display: flex;
     justify-content: center;
@@ -172,6 +178,9 @@ footer a{
     padding: 20px
 }
 
+
+
+/* Media queries */
 @media screen and (max-width:980px){
     header{
         padding-bottom: 0;
