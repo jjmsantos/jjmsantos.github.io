@@ -6,6 +6,9 @@ Here you can see that I have demonstrated my skills that I have developed so far
 
 ***
 
+Live webpage to portfolio found here : https://jjmsantos.github.io/
+
+***
 # Introduction
 ***
 
@@ -23,6 +26,6 @@ Such as;
 * Maintain a positive team morale
 
 I have taken computer engineering technology in that past at Humber College, but dropped the program 2 years before graduation as the fire to become a Computer Engineer died.
-Today, I look to make a 180 degree turn back into the tech industry by taking on a Coding Bootcamp at University of Toronto to help my develop the skills needed to survive and strive in the tech industry.
+Today, I look to make a 180 degree turn back into the tech industry by taking on a Coding Bootcamp at University of Toronto to help me develop the skills needed to survive and strive in the tech industry.
 
 
